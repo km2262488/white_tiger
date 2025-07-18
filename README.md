@@ -19,7 +19,7 @@ python3 whitetiger.py --help
 ## Options
 
 ```sh
-python3 whiyetiger.py <url> <options>
+python3 whitetiger.py <url> <options>
 
 Options            Description                                      Default
 -u, --useragents   Type of user-agents to generate                  (default: randomly generated)
