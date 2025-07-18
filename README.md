@@ -1,8 +1,8 @@
-# EagleEye DDoS Tool
+# WhiteTiger DDoS Tool
 
-EagleEye is only a tool for SECURITY TESTING PURPOSES!
+WhiteTiger is only a tool for SECURITY TESTING PURPOSES!
 
-EagleEye is an HTTP DDoS Tool.
+WhitTigeris an HTTP DDoS Tool.
 
 Attack Vector exploited: HTTP Keep Alive + NoCache
 
@@ -11,15 +11,15 @@ Warning: don't try with .edu and .gov
 ## Usage
 
 ```sh
-git clone https://github.com/lucthienphong1120/EagleEye.git
-cd EagleEye
-python3 eagleeye.py --help
+git clone https://github.com/km2262488/white_tiger.git
+cd whitetiger
+python3 whitetiger.py --help
 ```
 
 ## Options
 
 ```sh
-python3 eagleeye.py <url> <options>
+python3 whiyetiger.py <url> <options>
 
 Options            Description                                      Default
 -u, --useragents   Type of user-agents to generate                  (default: randomly generated)
@@ -34,7 +34,7 @@ Options            Description                                      Default
                    (True/False)
 -h, --help         Shows this help
 
-Example: python3 eagleeye.py https://example.com -w 1000 -s 1000 -m post
+Example: python3 whitetiger.py https://example.com -w 1000 -s 1000 -m post
 ```
 
 Check website monitoring in https://check-host.net/
