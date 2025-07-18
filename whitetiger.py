@@ -62,7 +62,7 @@ EAGLEEYE_BANNER = """
                                                        ||
                                                    '..|' 
                                    
-           EagleEye - DDoS Tools by LTP
+           WhiteTiger - DDoS Tools by BAI HU
 """
 
 USER_AGENT_PARTS = {
@@ -136,7 +136,7 @@ class EagleEye(object):
 
     def exit(self):
         self.stats()
-        print("Stopping EagleEye by LTP . . .")
+        print("Stopping WhiteTiger by BAI HU . . .")
 
     def __del__(self):
         self.exit()
@@ -181,7 +181,7 @@ class EagleEye(object):
         try:
             if self.counter[0] > 0 or self.counter[1] > 0:
 
-                print("{0} EagleEye strikes hit. ({1} Failed)".format(self.counter[0], self.counter[1]))
+                print("{0} >>>>> WhiteTiger send packet. ({1} Failed)".format(self.counter[0], self.counter[1]))
 
                 if self.counter[0] > 0 and self.counter[1] > 0 and self.last_counter[0] == self.counter[0] and self.counter[1] > self.last_counter[1]:
                     print("\tServer may be DOWN!")
@@ -536,7 +536,7 @@ def usage():
     print()
     print(EAGLEEYE_BANNER)
     print()
-    print(' USAGE: python3 eagleeye.py <url> [OPTIONS]')
+    print(' USAGE: python3 whitetiger.py <url> [OPTIONS]')
     print()
     print(' OPTIONS:')
     print('\t Flag\t\t\tDescription\t\t\t\t\t\tDefault')
