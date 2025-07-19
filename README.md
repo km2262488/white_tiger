@@ -2,7 +2,7 @@
 
 WhiteTiger is only a tool for SECURITY TESTING PURPOSES!
 
-WhitTigeris an HTTP DDoS Tool.
+WhiteTiger is an HTTP DDoS Tool.
 
 Attack Vector exploited: HTTP Keep Alive + NoCache
 
